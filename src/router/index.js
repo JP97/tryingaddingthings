@@ -6,6 +6,7 @@ Vue.use(VueRouter);
 
 const routes = [
     {
+        //empty path redirects to default language home
         path: '',
         redirect: '/en/home'
     },
