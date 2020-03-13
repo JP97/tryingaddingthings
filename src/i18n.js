@@ -23,7 +23,7 @@ function loadLocaleMessages() {
 export default new VueI18n({
     //this was before: process.env.VUE_APP_I18N_LOCALE || "en"
     //                 process.env.VUE_APP_I18N_FALLBACK_LOCALE || "en"
-  locale: "en",
-  fallbackLocale: "en",
+  locale: "dk",
+  fallbackLocale: "dk",
   messages: loadLocaleMessages()
 });

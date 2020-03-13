@@ -1,7 +1,8 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/en/home">Home</router-link> |
+        <!-- to make it dynamic i use the v-bind and the i18n.locale to dynamically route to the right one -->
+      <router-link :to="`/${$i18n.locale}/`">Home</router-link> |
       <router-link to="/en/about">About</router-link>
     </div>
     <router-view />
